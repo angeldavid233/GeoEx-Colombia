@@ -8,9 +8,9 @@ function App() {
       <Routes>
         <Route path="/Inicio" element={<Home />} />
         <Route path="*" element={<Navigate to="/Inicio" />} />
-      </Routes>
+      </Routes>sd
     </Router>
   );
 }
-// hola
+
 export default App;

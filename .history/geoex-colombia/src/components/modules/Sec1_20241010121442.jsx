@@ -7,10 +7,11 @@ function Sec1() {
 
   // Lista de textos y colores para ciclar
   const texts = ['territorios', 'país', 'Colombia'];
-  const colors = ['text-warning', 'text-primary', 'text-info']; // Amarillodd, azul
+  const colors = ['text-warning', 'text-primary', 'text-info']; // Amarillo, azul
 
   useEffect(() => {
     let index = 0;
+s
     const intervalId = setInterval(() => {
       setText(texts[index % texts.length]); // Cambia el texto
       setColor(colors[index % colors.length]); // Cambia el color

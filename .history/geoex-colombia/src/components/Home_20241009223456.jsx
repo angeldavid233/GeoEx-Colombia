@@ -6,7 +6,6 @@ function Home() {
   return (
     <div class="container-fluid">
       <Header />
-      <Sec1 />
     </div>
   );
 }

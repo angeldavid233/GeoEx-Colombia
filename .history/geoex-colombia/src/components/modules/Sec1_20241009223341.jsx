@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../scss/header.scss';
 
-function Header() {
+function Sec1() {
   return (
     <header id='con' className="bg-white shadow" style={{ fontFamily: "'Roboto', sans-serif" }}>
       <div className="container py-4">
@@ -35,4 +35,4 @@ function Header() {
       );
 }
 
-export default Header;
+export default Sec1;
